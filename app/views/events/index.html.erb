@@ -1,0 +1,15 @@
+<h1>List of Events</h1>
+
+<% @events.each do |event| %>
+  <%= event.date %>
+  <br/>
+  <%= event.location %>
+  <br/>
+  <%= event.description %>
+  <br/>
+  <%= event.capacity %>
+  <br/>
+  <%= event.requires_id %>
+  <br/>
+  <br/>
+<% end %>
